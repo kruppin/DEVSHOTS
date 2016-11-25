@@ -1,0 +1,39 @@
+.text-color1{
+  color: white;
+}
+
+.text-color2{
+  color: rgba(181, 181, 181, 1);/*Grey in header hebrew title*/
+}
+
+.text-color3{
+  color: rgba(40,40,40,1);/*Black hebrew title*/
+}
+
+.text-color4{
+  color: rgba(255,221,15,1);/*Yellow of form title*/
+}
+
+.text-color5{
+  color: rgba(70,70,70,1);/*Duration lecture title*/
+}
+
+.text-color6{
+  color: rgba(124,122,119,1);/*Title of lecturer*/
+}
+
+.text-color7{
+  color: rgba(115,115,115,1);/*Grey text in direction section*/
+}
+
+.text-color8{
+  color: rgba(143,143,143,1);/*Down of map text*/
+}
+
+.text-color9{
+  color: rgba(94,94,77,1);/*Paragraph in lecture section*/
+}
+
+.text-color10{
+  color: rgba(79,79,79,1);/*Extra info paragraph color*/
+}

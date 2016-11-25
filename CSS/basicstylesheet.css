@@ -1,0 +1,631 @@
+/*******************************************************************************
+
+GENERAL DECLARATIONS
+
+*******************************************************************************/
+
+/******************************
+FONTS IMPORT
+******************************/
+/*@import url('http://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css');*/
+/*@import url("Open Sans Hebrew full/Open Sans Hebrew.css");*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: italic;
+    font-weight: 300;
+    src: url(opensanshebrew-lightitalic-webfont.eot);
+    src: url(opensanshebrew-lightitalic-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-lightitalic-webfont.woff) format('woff'),
+    url(opensanshebrew-lightitalic-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 300;
+    src: url(opensanshebrew-light-webfont.eot);
+    src: url(opensanshebrew-light-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-light-webfont.woff) format('woff'),
+    url(opensanshebrew-light-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: italic;
+    font-weight: 400;
+    src: url(opensanshebrew-italic-webfont.eot);
+    src: url(opensanshebrew-italic-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-italic-webfont.woff) format('woff'),
+    url(opensanshebrew-italic-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 400;
+    src: url(opensanshebrew-regular-webfont.eot);
+    src: url(opensanshebrew-regular-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-regular-webfont.woff) format('woff'),
+    url(opensanshebrew-regular-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: italic;
+    font-weight: 700;
+    src: url(opensanshebrew-bolditalic-webfont.eot);
+    src: url(opensanshebrew-bolditalic-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-bolditalic-webfont.woff) format('woff'),
+    url(opensanshebrew-bolditalic-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 700;
+    src: url(opensanshebrew-bold-webfont.eot);
+    src: url(opensanshebrew-bold-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-bold-webfont.woff) format('woff'),
+    url(opensanshebrew-bold-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: italic;
+    font-weight: 800;
+    src: url(opensanshebrew-extrabold-webfont.eot);
+    src: url(opensanshebrew-extrabold-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-extrabold-webfont.woff) format('woff'),
+    url(opensanshebrew-extrabold-webfont.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    font-weight: 800;
+    src: url(opensanshebrew-extrabold-webfont.eot);
+    src: url(opensanshebrew-extrabold-webfont.eot?#iefix) format('embedded-opentype'),
+    url(opensanshebrew-extrabold-webfont.woff) format('woff'),
+    url(opensanshebrew-extrabold-webfont.ttf) format('truetype');
+}
+
+
+/******************************
+BASIC DECLARATION
+******************************/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  direction: rtl;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+.auto-center{
+  margin: 0 auto;
+}
+
+/****************************
+TEXT ALIGN
+****************************/
+
+.text-align-right{
+  text-align: right;
+}
+
+/*****************************
+POSITION CLASES
+*****************************/
+
+
+
+.relative-postion{
+  position: relative;
+}
+
+.absolute-postion{
+  position: absolute;
+}
+
+.right-bottom-conner{
+  bottom: 0;
+  right: 0;
+}
+
+
+
+.left-top-conner{
+  left: 0;
+  top: 0;
+}
+
+/********************************
+MENU BUTTON!!!!!!!!!!!!!!!!!!!!!!
+********************************/
+
+.menubutton{
+  background-color: white;
+  border: 1px rgba(148 , 147, 129, 0.5) solid
+}
+
+/********************************
+DIAGONAL LINE
+********************************/
+
+.diagonal-line{
+  height: 25px;
+  width: 100%;
+  margin: 0;
+  transform: rotate(1deg);
+  transform-origin: right;
+}
+
+/********************************
+PRESENTATIONN
+********************************/
+
+.positon-duration-time{
+  bottom: 18%;
+  left: 0;
+}
+
+
+/*******************************************************************************
+
+LIST OF CONSTANT CLASES
+
+*******************************************************************************/
+
+/*********************************
+ANCHOR CONFIG
+*********************************/
+
+.anchor1{
+  color: rgba(115,115,115,1);
+}
+
+.anchor2{
+  color: rgba(115,115,115,1);
+  text-decoration: underline;;
+}
+/*********************************
+TEXT COLOR CLASS!!!!!!!!!!!!!!!!!
+*********************************/
+
+
+
+.text-color1{
+  color: white;
+}
+
+.text-color2{
+  color: rgba(181, 181, 181, 1);/*Grey in header hebrew title*/
+}
+
+.text-color3{
+  color: rgba(40,40,40,1);/*Black hebrew title*/
+}
+
+.text-color4{
+  color: rgba(255,221,15,1);/*Yellow of form title*/
+}
+
+.text-color5{
+  color: rgba(70,70,70,1);/*Duration lecture title*/
+}
+
+.text-color6{
+  color: rgba(124,122,119,1);/*Title of lecturer*/
+}
+
+.text-color7{
+  color: rgba(115,115,115,1);/*Grey text in direction section*/
+}
+
+.text-color8{
+  color: rgba(143,143,143,1);/*Down of map text*/
+}
+
+.text-color9{
+  color: rgba(94,94,77,1);/*Paragraph in lecture section*/
+}
+
+.text-color10{
+  color: rgba(79,79,79,1);/*Extra info paragraph color*/
+}
+
+
+
+/*********************************
+BACKGROUND COLOR CLASS!!!!!!!!!!!!
+*********************************/
+
+
+.background-color1{
+  background-color: rgba(40,40,40,1); /*Black background in header and footer*/
+}
+
+.background-color2{
+  background-color: rgba(148,147,129,1); /*Green background in presentation and
+                                           form.*/
+}
+
+.background-color3{
+  background-color: rgba(255,224,34,1); /*Yellow background in nav*/
+}
+
+.background-color4{
+  background-color: white; /*I really need to explain this*/
+}
+
+.background-color5{
+  background-color: rgba(238,238,238,1); /*Beish background in
+                                           lecture and extra info*/
+}
+
+.background-color6{
+  background-color: rgba(40,40,40,1); /*Black background in header and footer*/
+}
+
+.background-color7{
+  background-color: rgba(220,220,220,1); /*Grey background in direction section*/
+}
+
+.background-color8{
+  background-color: rgba(43,43,43,1); /*Background color in about us title*/
+}
+
+.background-color9{
+  background-color: rgba(208,234,233,1); /*Pale blue in lecture box*/
+}
+
+.background-color10{
+  background-color: rgba(96, 95, 82, 1);/*Back ground color of diagonal stripe*/
+}
+
+/*********************************
+FONT CLASS!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+
+.font-hebrew{
+  font-family:  'Open Sans Hebrew';
+}
+
+.font-english{
+  font-family: 'Open Sans',sans-serif;
+}
+
+
+/*********************************
+FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+.font-size1{
+  font-size: 32px; /*English intro title and h2*/
+}
+
+.font-size2{
+  font-size: 30px; /*Hebrew intro title*/
+}
+
+.font-size3{
+  font-size: 80px; /*White presentation title*/
+}
+
+.font-size4{
+  font-size: 35px; /*Hebrew black presentation title*/
+}
+
+.font-size5{
+  font-size: 19px; /*Text in navigation bar*/
+}
+
+.font-size6{
+  font-size: 24px; /*Lecture title*/
+}
+
+.font-size7{
+  font-size: 12px; /*Text in white box lecture*/
+}
+
+.font-size8{
+  font-size: 14px; /*Little text aside h2 in direction section*/
+}
+
+.font-size9{
+  font-size: 16px; /*Title down h2 in direction section*/
+}
+
+.font-size10{
+  font-size: 13px; /*Paragraph in direction section*/
+}
+
+.font-size11{
+  font-size: 11px; /*Text down the map*/
+}
+
+.font-size12{
+  font-size: 15px; /*Text in presentation hour in direction section*/
+}
+
+.font-size13{
+  font-size: 36px; /*Hour*/
+}
+
+.font-size14{
+  font-size: 22px; /*NETCRAFT title in about us section*/
+}
+
+.font-size15{
+  font-size: 42px;
+}
+
+.font-size16{
+  font-size: 9px;
+}
+/*********************************
+WIDTH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+.width1{
+  width: 12%;  /*Nav element width*/
+}
+
+.width2{
+  width: 14px; /*Clock element width*/
+}
+
+.width3{
+  width: 150px; /*Lecturer picture*/
+}
+
+.width4{
+  width: 395px; /*Map width*/
+}
+
+.width5{
+  width: 10px;
+}
+
+.width6{
+  width: 40px;
+}
+
+.width7{
+  width: 352px; /*Input field width*/
+}
+
+.full-width{
+  width: 100%;
+}
+/*MAX WIDTH*/
+
+.max-width1{
+  max-width: 450px;
+}
+
+/*********************************
+HEIGHT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+.height1{
+  height: 40px;
+}
+
+/*********************************
+FONT WIDTH!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+.font-weight1{
+  font-weight: bolder;
+}
+
+.font-weight2{
+  font-weight: 400;
+}
+
+/*********************************
+BORDER!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+.border1{
+  border: 6px solid white;
+}
+
+/*BORDER BOTTOM*/
+.border-bottom1{
+  border-bottom: 1px dotted grey;
+}
+
+
+.border-reset{
+  border: 0;
+}
+
+/*BODER COLOR*/
+
+.border-color1{
+  border-color: rgba(40, 40, 40, 1);
+}
+
+.border-color2{
+  border-color: rgba(255,224,34,1);
+}
+
+/*********************************
+TEXT SHADOW!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+.text-shadow1{
+  text-shadow: 0px 1px black;
+}
+
+.text-shadow2{
+  text-shadow: 0px 1px rgba(187, 186, 174, 1);
+}
+/*********************************
+DISPLAY!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+.inline{
+  display: inline;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.block{
+  display: block;
+}
+
+.none{
+  display: none;
+}
+
+/*********************************
+PADDING!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+/*PADDING TOP*/
+
+.padding-top1{
+  padding-top: 16px;
+}
+
+.padding-top2{
+  padding-top: 20px;
+}
+
+.padding-top3{
+  padding-top: 11px;
+}
+
+.padding-top4{
+  padding-top: 91px;
+}
+
+.padding-top5{
+  padding-top: 59px;
+}
+
+/*PADDING BOTTOMS*/
+
+.padding-bottom1{
+  padding-bottom: 23px;
+}
+
+.padding-bottom2{
+  padding-bottom: 11px;
+}
+
+.padding-bottom3{
+  padding-bottom: 120px;
+}
+
+.padding-bottom4{
+  padding-bottom: 54px;
+}
+
+.padding-bottom5{
+  padding-bottom: 37px;
+}
+
+/*PADDING LEFT*/
+
+.padding-left1{
+  margin-left: 60px;
+}
+
+/*PADDING RIGHT*/
+
+
+
+.padding-reset{
+  padding: 0;
+}
+
+/*PADDING BY ELEMENT*/
+
+.white-box-padding{
+  padding: 19px 19px 41px 11px;
+}
+
+.pale-blue-padding{
+  padding: 18px 15px 16px 0;
+}
+
+.nav-padding{
+  padding: 10px 31px 8px 10px;
+}
+
+
+/*********************************
+MARGIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+/*MARGIN TOP*/
+
+.margin-top1{
+  margin-top: 19px;
+}
+
+.margin-top2{
+  margin-top: 10px;
+}
+
+.margin-top3{
+  margin-top: 5px;
+}
+
+/*MARGIN BOTTOM*/
+
+.margin-bottom1{
+  margin-bottom: 24px;
+}
+
+.margin-bottom2{
+  margin-bottom: 12px;
+}
+/*MARGIN LEFT*/
+
+.margin-left1{
+  margin-left: 22px;
+}
+
+/*MARGIN ELEMENT*/
+
+.margin-reset{
+  margin: 0;
+}
+
+
+/*********************************
+BORDER RADIUS!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+
+
+.border-radius1{
+  border-radius: 45px;
+}
+
+.border-radius2{
+  border-radius: 40px;
+}
+
+.border-radius3{
+  border-radius: 15%;
+}
+
+.border-radius4{
+  border-radius: 5px;
+}
+/*********************************
+ALIGMENT!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+.vertical-medium{
+  vertical-align: middle;
+}

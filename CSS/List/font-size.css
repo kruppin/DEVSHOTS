@@ -1,0 +1,55 @@
+.font-size1{
+  font-size: 24px; /*English intro title and h2*/
+}
+
+.font-size2{
+  font-size: 22px; /*Hebrew intro title*/
+}
+
+.font-size3{
+  font-size: 46px; /*White presentation title*/
+}
+
+.font-size4{
+  font-size: 20px; /*Hebrew black presentation title*/
+}
+
+.font-size5{
+  font-size: 12px; /*Text in navigation bar*/
+}
+
+.font-size6{
+  font-size: 14px; /*Lecture title*/
+}
+
+.font-size7{
+  font-size: 8px; /*Text in white box lecture*/
+}
+
+.font-size8{
+  font-size: 10px; /*Little text aside h2 in direction section*/
+}
+
+.font-size9{
+  font-size: 13px; /*Title down h2 in direction section*/
+}
+
+.font-size10{
+  font-size: 9px; /*Paragraph in direction section*/
+}
+
+.font-size11{
+  font-size: 7px; /*Text down the map*/
+}
+
+.font-size12{
+  font-size: 11px; /*Text in presentation hour in direction section*/
+}
+
+.font-size13{
+  font-size: 32px; /*Hour*/
+}
+
+.font-size14{
+  font-size: 15px; /*NETCRAFT title in about us section*/
+}

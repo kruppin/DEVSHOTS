@@ -1,0 +1,37 @@
+.background-color1{
+  background-color: rgba(40,40,40,1); /*Black background in header and footer*/
+}
+
+.background-color2{
+  background-color: rgba(148,147,129,1); /*Green background in presentation and
+                                           form.*/
+}
+
+.background-color3{
+  background-color: rgba(255,224,34,1); /*Yellow background in nav*/
+}
+
+.background-color4{
+  background-color: white; /*I really need to explain this*/
+}
+
+.background-color5{
+  background-color: rgba(238,238,238,1); /*Beish background in
+                                           lecture and extra info*/
+}
+
+.background-color6{
+  background-color: rgba(40,40,40,1); /*Black background in header and footer*/
+}
+
+.background-color7{
+  background-color: rgba(220,220,220,1); /*Grey background in direction section*/
+}
+
+.background-color8{
+  background-color: rgba(43,43,43,1); /*Background color in about us title*/
+}
+
+.background-color9{
+  background-color: rgba(208,234,233,1); /*Pale blue in lecture box*/
+}

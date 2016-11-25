@@ -1,322 +1,624 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
-   <head>
-      <meta charset="utf-8">
-      <title>DevShots</title>
-      <link rel="stylesheet" href="basicstylesheet.css" media="screen" title="no title">
-   </head>
-   <body>
-      <header>
-         <div class="wrapper">
-            <p id="english-intro-title">DEV SHOTS</p>
-            <h1>אירוע המפתחים</h1>
-            <img src="" alt="netcraft logo" id="netcraft-logo"/>
-         </div>
-         <nav>
-            <ul>
-               <li>ניווט</li>
-               <li>מה זה?</li>
-               <li>ההרצאות</li>
-               <li>איפה החניה?</li>
-               <li>הרשמה</li>
-               <li>מידע שימושי</li>
-               <li>עלינו</li>
-            </ul>
-         </nav>
-      </header>
-      <article>
-               <h2>אירוע המפתחים בראש טוב</h2>
-               <p>
-                  לדבר על טכנולוגיות מהחזית ואתגרים שווים על גיבורי יום-יום כמוכם
-               </p>
-               <img src="" alt="The picture of the robots" />
-      </article>
-      <section><!-- הרצאות-->
-         <div class="wrapper">
-            <header>
-               <h2>6 הרצאות מרתקות וקצרות </h2>
-               <img src="" alt="Clock icon" />
-               <p>
-                  15 דקות להרצאה
-               </p>
-            </header>
+
+<head>
+    <meta charset="utf-8">
+    <title>DevShots</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/basicstylesheet.css" media="screen" title="no title">
+    <link rel="stylesheet" href="CSS/mediaquerystylesheet.css" media="(min-width: 768px)" title="no title">
+</head>
+
+<body class="font-hebrew relative-postion">
+    <header class="background-color1
+                     padding-top1
+                     padding-bottom1">
+        <div class="container  appear-tablet-block">
+            <div class="row relative-postion ">
+                <div class="col-lg-2
+                        col-md-2
+                        col-sm-4
+                        col-xs-4">
+                    <img src="img/Logo.PNG" class="img-responsive vertical-medium" alt="netcraft logo" />
+                </div>
+                <div class="col-sm-8 col-xs-8 disappear-screen">
+                    <button class="glyphicon glyphicon-menu-hamburger
+                                   width6
+                                   height1
+                                   margin-top3
+                                   border-radius3
+                                   menubutton
+
+                                  "></button>
+                </div>
+                <div class="col-lg-6 col-lg-offset-4
+                        col-md-6 col-md-offset-4
+                        col-sm-8
+                        col-xs-8
+                        none
+                        ">
+                    <h1 class="text-color1
+                         font-size1
+                         font-english
+                         inline
+                         vertical-medium">DEV SHOTS</h1>
+                    <span class="text-color2
+                        font-size2
+                        vertical-medium
+                        ">אירוע המפתחים</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="background-color2
+                      relative-postion
+                      padding-bottom3">
+        <div class="container">
+            <div class="row
+                      padding-top2">
+                <div class="width1
+                        absolute-postion
+                        left-top-conner
+                        none
+                        appear-screen-inline-block">
+                    <nav>
+                        <ul class="font-size5
+                            background-color4
+                            padding-reset
+                            font-weight2">
+                            <li class="border-bottom1
+                               background-color1
+                               nav-padding
+                               border-color1
+                               font-size6">
+                                <a class="text-color1" href="#">ניווט</a>
+                            </li>
+                            <li class="border-bottom1
+                               background-color3
+                               nav-padding
+                               border-color2">
+                                <a class="text-color3" href="#">מה זה?</a>
+                            </li>
+                            <li class="border-bottom1
+                               nav-padding">
+                                <a class="text-color3" href="#">ההרצאות</a>
+                            </li>
+                            <li class="border-bottom1
+                               nav-padding">
+                                <a class="text-color3" href="#">איפה החניה?</a>
+                            </li>
+                            <li class="border-bottom1
+                               nav-padding">
+                                <a class="text-color3" href="#">הרשמה</a>
+                            </li>
+                            <li class="border-bottom1
+                               nav-padding">
+                                <a class="text-color3" href="#">מידע שימושי</a>
+                            </li>
+                            <li class="border-bottom1
+                               nav-padding">
+                                <a class="text-color3" href="#">עלינו</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-5 desapair-mobile">
+                    <img src="" alt="" />
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-7 col-xs-12">
+                    <article>
+                        <h2 class="text-color1
+                           font-size3
+                           text-shadow1">אירוע פיתוח בראש טוב</h2>
+                        <p class="font-size4
+                          text-shadow2">
+                            לדבר על טכנולוגיות מהחזית ואתגרים שווים על גיבורי יום-יום כמוכם
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="diagonal-line
+                 background-color10
+                 absolute-postion
+                 border-reset">
+    <section class="background-color5 padding-top4 padding-bottom4">
+        <!-- הרצאות-->
+        <div class="container">
+            <div class="row relative-postion">
+                <div class="col-md-5 col-md-offset-7
+                          col-lg-5 col-lg-offset-7
+                          col-sm-6 col-sm-offset-6
+                          col-xs-12
+                          ">
+                    <h2 class="font-size13">6 הרצאות מרתקות וקצרות </h2>
+                </div>
+                <div class="col-md-3
+                          col-lg-3
+                          col-sm-6
+                          col-xs-12
+                          text-align-right">
+                    <img src="img/Clock.png" class="width2" alt="Clock icon" />
+                    <p class="inline">
+                        15 דקות להרצאה
+                    </p>
+                </div>
+
+
+            </div>
+            <hr class="border-bottom1">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <article class="lecture-block">
+                        <img src="img/Lecturer.png" class="width3
+                          block
+                          auto-center" alt="Picture of lecture presentor" />
+                        <div class="background-color4
+                               white-box-padding
+                               max-width1
+                               auto-center
+                               border-radius2">
+                            <div class="background-color9
+                                  pale-blue-margin
+                                  pale-blue-padding
+                                  border-radius1
+                                  margin-bottom1">
+                                <h3 class="font-size6
+                                    margin-reset
+                                    font-width1">חומרניות בעולם דיגיטלי</h3> רן לירון
+                            </div>
+                            <div class="font-size7 margin-left1">
+                                <p>
+                                    ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
+                                </p>
+                                <p>
+                                    ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על מחקר ההרצאה תסקור את הרגלי השימוש.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <article class="lecture-block">
+                        <img src="img/Lecturer.png" class="width3
+                          block
+                          auto-center" alt="Picture of lecture presentor" />
+                        <div class="background-color4
+                               white-box-padding
+                               max-width1
+                               auto-center
+                               border-radius2">
+                            <div class="background-color9
+                                  pale-blue-margin
+                                  pale-blue-padding
+                                  border-radius1
+                                  margin-bottom1">
+                                <h3 class="font-size6
+                                    margin-reset
+                                    font-width1">חומרניות בעולם דיגיטלי</h3> רן לירון
+                            </div>
+                            <div class="font-size7 margin-left1">
+                                <p>
+                                    ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
+                                </p>
+                                <p>
+                                    ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על מחקר ההרצאה תסקור את הרגלי השימוש.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <article class="lecture-block">
+                        <img src="img/Lecturer.png" class="width3
+                          block
+                          auto-center" alt="Picture of lecture presentor" />
+                        <div class="background-color4
+                               white-box-padding
+                               max-width1
+                               auto-center
+                               border-radius2">
+                            <div class="background-color9
+                                  pale-blue-margin
+                                  pale-blue-padding
+                                  border-radius1
+                                  margin-bottom1">
+                                <h3 class="font-size6
+                                    margin-reset
+                                    font-width1">חומרניות בעולם דיגיטלי</h3> רן לירון
+                            </div>
+                            <div class="font-size7 margin-left1">
+                                <p>
+                                    ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
+                                </p>
+                                <p>
+                                    ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על מחקר ההרצאה תסקור את הרגלי השימוש.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <hr class="border-bottom1 none">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <article class="lecture-block">
+                        <img src="img/Lecturer.png" class="width3
+                          block
+                          auto-center" alt="Picture of lecture presentor" />
+                        <div class="background-color4
+                               white-box-padding
+                               max-width1
+                               auto-center
+                               border-radius2">
+                            <div class="background-color9
+                                  pale-blue-margin
+                                  pale-blue-padding
+                                  border-radius1
+                                  margin-bottom1">
+                                <h3 class="font-size6
+                                    margin-reset
+                                    font-width1">חומרניות בעולם דיגיטלי</h3> רן לירון
+                            </div>
+                            <div class="font-size7 margin-left1">
+                                <p>
+                                    ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
+                                </p>
+                                <p>
+                                    ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על מחקר ההרצאה תסקור את הרגלי השימוש.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <article class="lecture-block">
+                        <img src="img/Lecturer.png" class="width3
+                          block
+                          auto-center" alt="Picture of lecture presentor" />
+                        <div class="background-color4
+                               white-box-padding
+                               max-width1
+                               auto-center
+                               border-radius2">
+                            <div class="background-color9
+                                  pale-blue-margin
+                                  pale-blue-padding
+                                  border-radius1
+                                  margin-bottom1">
+                                <h3 class="font-size6
+                                    margin-reset
+                                    font-width1">חומרניות בעולם דיגיטלי</h3> רן לירון
+                            </div>
+                            <div class="font-size7 margin-left1">
+                                <p>
+                                    ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
+                                </p>
+                                <p>
+                                    ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על מחקר ההרצאה תסקור את הרגלי השימוש.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <article class="lecture-block">
+                        <img src="img/Lecturer.png" class="width3
+                          block
+                          auto-center" alt="Picture of lecture presentor" />
+                        <div class="background-color4
+                               white-box-padding
+                               max-width1
+                               auto-center
+                               border-radius2">
+                            <div class="background-color9
+                                  pale-blue-margin
+                                  pale-blue-padding
+                                  border-radius1
+                                  margin-bottom1">
+                                <h3 class="font-size6
+                                    margin-reset
+                                    font-width1">חומרניות בעולם דיגיטלי</h3> רן לירון
+                            </div>
+                            <div class="font-size7 margin-left1">
+                                <p>
+                                    ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
+                                </p>
+                                <p>
+                                    ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על מחקר ההרצאה תסקור את הרגלי השימוש.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="background-color7
+                      padding-top5
+                      padding-bottom5">
+        <!-- איך להגיע -->
+        <div class="container">
+            <div class="row margin-bottom2">
+                <div class="col-md-12 col-lg-12">
+                    <h2 class="next
+                          font-size13
+                          inline">אז איפה שמים את האוטו?</h2>
+                    <span class="text-color7
+                            font-weight1">עוד כמה פרטים חשובים</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5
+                        col-lg-5
+                        none
+                        appear-tablet-block
+                        text-align-left">
+                    <img src="img/Map.png" class="width4
+                          border1
+                          block" alt="Map to direction" />
+                    <img src="img/Search-icon.png" class="width5" alt="Search Icon" />
+                    <a class="anchor2" href="#">למפה המלאה</a>
+                </div>
+                <div class="col-md-6 col-md-offset-1
+                        col-lg-6 col-lg-offset-1
+                        col-sm-6
+                        margin-top2">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-sm-12">
+                            <p class="font-size14">הערב יערך במועדון הסאבליים</p>
+                            <p class="font-size7">דרך שלמה המלך 53, תל אביב</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+                            <div class="row">
+                                <article class="Hour">
+                                    <div class="col-md-7
+                                  col-lg-7
+                                  col-sm-7
+                                  col-xs-7
+                                  font-size12
+                                  font-weight1
+                                  text-color7">
+                                        19:00
+                                    </div>
+                                    <div class="col-md-5 col-lg-5  col-sm-5 col-xs-5 font-size16"> <!--font-size5-->
+                                        מתחילים בשעה:
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+                            <div class="row">
+                                <article class="Hour"> <!--font-size15-->
+                                    <div class="col-md-7
+                                  col-lg-7
+                                  col-sm-7
+                                  col-xs-7
+                                  font-size12
+                                  font-weight1
+                                  text-color7">
+                                        18:30
+                                    </div>
+                                    <div class="col-md-5 col-lg-5 col-sm-5 col-xs-5 font-size16"><!--font-size5-->
+                                        מתכנסים בשעה:
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-7 col-lg-7 col-sm-7 col-xs-7 font-size16"><!--font-size5-->
+                            <article class="list-of-transport">
+                                <span class="">חניה </span>
+                                <hr>
+                                <ol class="">
+                                    <li>רכבת מרכז - 42,142</li>
+                                    <li>תחנה מרכזית - 96,201,163</li>
+                                </ol>
+                            </article>
+                        </div>
+                        <div class="col-md-5 col-lg-5 col-sm-5 col-xs-5 font-size16">
+                            <article class="list-of-transport">
+                                <span class="">אוטובוסים </span>
+                                <hr>
+                                <ol class="">
+                                    <li>חניון אלי פלט</li>
+                                    <li>רחוב אלפסי</li>
+                                    <li>רחוב חיים בן עטר</li>
+                                </ol>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="background-color2 padding-top2 padding-bottom4">
+        <!--הרשמה-->
+        <div class="container text-color1">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-6 none appear-tablet-block">
+                    <img src="" alt="Robot picture" />
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                            <h2 class="text-color4
+                                       font-size13">הרשמה</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                            <p>
+                                ההרשמה חינם, אבל מספר המקומות מצומצם.
+                            </p>
+                            <p>
+                                נשמח אם תרשומו את עצמכם רק אם אתם באמת מתכוונים להגיע - כדי שלא נסרב מקום לימשהו אחר.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            כל הפרטים האישיים ישארו חסויים ואנחנו לא נעביר אותם לאף אחד.
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                            <article class="">
+                                <form action="" class="text-color3">
+                                  <div class="row">
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 margin-bottom2 font-size7">
+                                      <input type="text" id="full-name" value="פרטי וגם משפחה" class="full-width border-radius4">
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                      <label for="full-name">שם מלא</label>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 margin-bottom2 font-size7">
+                                      <input type="text" id="ocuppation" value="מה אתם עושים ביום יום" class="full-width border-radius4">
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                      <label for="ocuppation">תפקיד</label>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 margin-bottom2 font-size7">
+                                      <input type="text" id="work-place" value="מי משלם לכם את המשכרות" class="full-width border-radius4">
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                      <label for="work-place">ארגון</label>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 margin-bottom2 font-size7">
+                                      <input type="text" id="phone-number" value="או סלולר, לנו לא אכפת" class="full-width border-radius4">
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                      <label for="phone-number">מספר טלפון</label>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 margin-bottom2 font-size7">
+                                      <input type="text" id="with-guest" value="יש לי מלא אבל אני בא לבד" class="full-width border-radius4">
+                                    </div>
+                                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                      <label for="with-guest">יש חברים</label>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                      <input type="submit" value="זהו! שלח אותי" class=" background-color1 text-color1 full-width border-radius4">
+                                    </div>
+                                  </div>
+                                </form>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>מידע שימושי</h2>
+        <div class="wrapper">
+            <article>
+                <img src="" alt="">
+                <h3>קורס HTML 5</h3>
+                <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>לימודים חווית משתמש</h3>
+                <p>אתר NETCRAFTACADEMY ללימוד חוויית משתמש</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>בלוג נטקראפט</h3>
+                <p>בלוג של אנשי נטקראפט על שימושיות, עיצוב, טנולוגיה וכל הדברים המעניינים באמת</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>הספרים שכדאי לכם לקרוא</h3>
+                <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
+            </article>
+            <article>
+                <img src="" alt="">
+                <h3>הספרים שכדאי לכם לקרוא</h3>
+                <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
+            </article>
             <br>
-            <article class="lecture-block">
-               <img src="" alt="Picture of lecture presentor" />
-               <div class="white-block">
-                  <div class="blue-block">
-                     <h3>חומרניות בעולם דיגיטלי</h3>
-                     רן לירון
-                  </div>
-                  <p>
-                     ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים
-                    אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
-                  </p>
-                  <p>
-                     ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים
-                     בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על
-                     מחקר ההרצאה תסקור את הרגלי השימוש.
-                  </p>
-               </div>
-            </article>
-            <article class="lecture-block">
-               <img src="" alt="Picture of lecture presentor" />
-               <div class="white-block">
-                  <div class="blue-block">
-                     <h3>חומרניות בעולם דיגיטלי</h3>
-                     רן לירון
-                  </div>
-                  <p>
-                     ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים
-                    אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
-                  </p>
-                  <p>
-                     ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים
-                     בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על
-                     מחקר ההרצאה תסקור את הרגלי השימוש.
-                  </p>
-               </div>
-            </article>
-            <article class="lecture-block">
-               <img src="" alt="Picture of lecture presentor" />
-               <div class="white-block">
-                  <div class="blue-block">
-                     <h3>חומרניות בעולם דיגיטלי</h3>
-                     רן לירון
-                  </div>
-                  <p>
-                     ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים
-                    אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
-                  </p>
-                  <p>
-                     ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים
-                     בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על
-                     מחקר ההרצאה תסקור את הרגלי השימוש.
-                  </p>
-               </div>
-            </article>
-            <article class="lecture-block">
-               <img src="" alt="Picture of lecture presentor" />
-               <div class="white-block">
-                  <div class="blue-block">
-                     <h3>חומרניות בעולם דיגיטלי</h3>
-                     רן לירון
-                  </div>
-                  <p>
-                     ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים
-                    אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
-                  </p>
-                  <p>
-                     ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים
-                     בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על
-                     מחקר ההרצאה תסקור את הרגלי השימוש.
-                  </p>
-               </div>
-            </article>
-            <article class="lecture-block">
-               <img src="" alt="Picture of lecture presentor" />
-               <div class="white-block">
-                  <div class="blue-block">
-                     <h3>חומרניות בעולם דיגיטלי</h3>
-                     רן לירון
-                  </div>
-                  <p>
-                     ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים
-                    אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
-                  </p>
-                  <p>
-                     ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים
-                     בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על
-                     מחקר ההרצאה תסקור את הרגלי השימוש.
-                  </p>
-               </div>
-            </article>
-            <article class="lecture-block">
-               <img src="" alt="Picture of lecture presentor" />
-               <div class="white-block">
-                  <div class="blue-block">
-                     <h3>חומרניות בעולם דיגיטלי</h3>
-                     רן לירון
-                  </div>
-                  <p>
-                     ההרצאה תסקור את הרגלי השימוש, הממשקים שעובדים, תשתף בסיפורים
-                    אנושיים מעניינים ובעיקר תשנה את הדרך שאתם חושבים על הגעל השלישי..
-                  </p>
-                  <p>
-                     ההרצאה מבוססת על מחקר וסדרה של תצפיות משתמשים
-                     בארץ במנגנון קורסי אינטרנט לגיל השלישי. ההרצאה מבוססת על
-                     מחקר ההרצאה תסקור את הרגלי השימוש.
-                  </p>
-               </div>
-            </article>
-         </div>
-      </section>
-      <section><!-- איך להגיע -->
-         <div class="wrapper">
-            <header class="Ubication">
-               <h2 class="next">אז איפה שמים את האוטו?</h2>
-               <p class="next">עוד כמה פרטים חשובים</p>
-               <p>הערב יערך במועדון הסאבליים</p>
-               <p>דרך שלמה המלך 53, תל אביב</p>
-            </header>
-            <br>
-            <article class="Hour">
-               <h3> מתכנסים בשעה: </h3>
-               <p> 18:30 </p>
-            </article>
-            <article class="Hour">
-               <h3> מתכנסים בשעה: </h3>
-               <p> 18:30 </p>
-            </article>
-            <br>
-            <article class="list-of-transport">
-               <h3>חניה </h3>
-               <br>
-               <ol>
-                   <li>חניון אלי פלט</li>
-                   <li>רחוב אלפסי</li>
-                   <li>רחוב חיים בן עטר</li>
-               </ol>
-            </article>
-            <article class="list-of-transport">
-               <h3>אוטובוסים </h3>
-               <br>
-               <ol>
-                   <li>רכבת מרכז - 42,142</li>
-                   <li>תחנה מרכזית - 96,201,163</li>
-               </ol>
-            </article>
-         </div>
-      </section>
-      <section><!--הרשמה-->
-         <div class="wrapper">
-               <header>
-                  <h2>הרשמה</h2>
-                  <p>
-                     ההרשמה חינם, אבל מספר המקומות מצומצם.
-                  </p>
-                  <p>
-                     נשמח אם תרשומו את עצמכם רק אם אתם באמת מתכוונים להגיע
-                     - כדי שלא נסרב מקום לימשהו אחר.
-                  </p>
-               </header>
-               <br>
-               <p>
-                  כל הפרטים האישיים ישארו חסויים ואנחנו לא נעביר אותם לאף אחד.
-               </p>
-               <br>
-               <article class="">
-                  <form action="">
-                     <label for="full-name">שם מלא</label>
-                     <input type="text" id="full-name" value="פרטי וגם משפחה">
-                     <label for="ocuppation">תפקיד</label>
-                     <input type="text" id="ocuppation" value="מה אתם עושים ביום יום">
-                     <label for="work-place">ארגון</label>
-                     <input type="text" id="work-place" value="מי משלם לכם את המשכרות">
-                     <label for="phone-number">מספר טלפון</label>
-                     <input type="text" id="phone-number" value="או סלולר, לנו לא אכפת">
-                     <label for="with-guest">יש חברים</label>
-                     <input type="text" id="with-guest" value="יש לי מלא אבל אני בא לבד">
-                     <input type="submit" value="זהו! שלח אותי">
-                  </form>
-               </article>
-          </div>
-         <img src="" alt="Robot picture" />
-      </section>
-      <section>
-         <h2>מידע שימושי</h2>
-         <div class="wrapper">
             <article>
-               <img src="" alt="">
-               <h3>קורס HTML 5</h3>
-               <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
+                <img src="" alt="">
+                <h3>הספרים שכדאי לכם לקרוא</h3>
+                <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
             </article>
             <article>
-               <img src="" alt="">
-               <h3>לימודים חווית משתמש</h3>
-               <p>אתר NETCRAFTACADEMY ללימוד חוויית משתמש</p>
+                <img src="" alt="">
+                <h3>הספרים שכדאי לכם לקרוא</h3>
+                <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
             </article>
             <article>
-               <img src="" alt="">
-               <h3>בלוג נטקראפט</h3>
-               <p>בלוג של אנשי נטקראפט על שימושיות, עיצוב,
-               טנולוגיה וכל הדברים המעניינים באמת</p>
+                <img src="" alt="">
+                <h3>הספרים שכדאי לכם לקרוא</h3>
+                <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
             </article>
             <article>
-               <img src="" alt="">
-               <h3>הספרים שכדאי לכם לקרוא</h3>
-               <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
+                <img src="" alt="">
+                <h3>הספרים שכדאי לכם לקרוא</h3>
+                <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
             </article>
             <article>
-               <img src="" alt="">
-               <h3>הספרים שכדאי לכם לקרוא</h3>
-               <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
+                <img src="" alt="">
+                <h3>הספרים שכדאי לכם לקרוא</h3>
+                <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
             </article>
-            <br>
-            <article>
-               <img src="" alt="">
-               <h3>הספרים שכדאי לכם לקרוא</h3>
-               <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
-            </article>
-            <article>
-               <img src="" alt="">
-               <h3>הספרים שכדאי לכם לקרוא</h3>
-               <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
-            </article>
-            <article>
-               <img src="" alt="">
-               <h3>הספרים שכדאי לכם לקרוא</h3>
-               <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
-            </article>
-            <article>
-               <img src="" alt="">
-               <h3>הספרים שכדאי לכם לקרוא</h3>
-               <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
-            </article>
-            <article>
-               <img src="" alt="">
-               <h3>הספרים שכדאי לכם לקרוא</h3>
-               <p>אספנו בשבילכם את רשימת הספרים שכדאי שצקראו לפנישאתם מתחילים</p>
-            </article>
-         </div>
-      </section>
-      <footer>
-         <div class="wrapper">
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper">
             <h2>קצת עלינו</h2>
             <ul>
-               <li>
-                  <img src="" alt="">
-               </li>
-               <li>
-                  <p>נטקראפט</p>
-                  <p> NETCRAFT מאפיינת, מעצבת ומפתחת פתרונות אינטרנט המאפשרים ללקוחותיה לייצר
-                  הצלחה עסקית ויתרון תחרותי בשור בו הם פועלים. המתכון הסודי שלנו מורכב מאנשים
-                  מצוינים, ניסיון עשיר, מתודולוגיה מנצחת והרבה חיוכים.</p>
-               </li>
-               <li>
-                  <img src="" alt="">
-                  <p>אירוע למעצב הדיגיטלי</p>
-               </li>
-               <li>
-                  <img src="" alt="">
-                  <p>בית הספר לחווית משתמש</p>
-               </li>
-               <li>
-                  <img src="" alt="">
-                  <p>חווית משתמש על בירה</p>
-               </li>
-               <li>
-                  <img src="" alt="">
-                  <p>הבלוג שלנו</p>
-               </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <p>נטקראפט</p>
+                    <p> NETCRAFT מאפיינת, מעצבת ומפתחת פתרונות אינטרנט המאפשרים ללקוחותיה לייצר הצלחה עסקית ויתרון תחרותי בשור בו הם פועלים. המתכון הסודי שלנו מורכב מאנשים מצוינים, ניסיון עשיר, מתודולוגיה מנצחת והרבה חיוכים.</p>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <p>אירוע למעצב הדיגיטלי</p>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <p>בית הספר לחווית משתמש</p>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <p>חווית משתמש על בירה</p>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <p>הבלוג שלנו</p>
+                </li>
             </ul>
             <br>
             <p>
-               כל הזכויות שמורות לנטקאפט&copy; 2012 | תרימו טלפון: 987455698 | בואו לבקר אותנו
-               בבניין תפוז אנשים רחוב בן-גוריון 30, קומה ראשונה, ר"ג | INFO@NETCRAFT.CO.IL"
+                כל הזכויות שמורות לנטקאפט&copy; 2012 | תרימו טלפון: 987455698 | בואו לבקר אותנו בבניין תפוז אנשים רחוב בן-גוריון 30, קומה ראשונה, ר"ג | INFO@NETCRAFT.CO.IL"
             </p>
             <img src="" alt="" />
-         </div>
-      </footer>
-   </body>
+        </div>
+    </footer>
+    <script src="js/jquery-3.1.1.min.js"></script>
+</body>
+
 </html>
