@@ -1,0 +1,19 @@
+  .appear-screen-inline-block{
+  display: inline-block;
+  }
+
+  .appear-screen-block{
+  display: block;
+  }
+
+  .disappear-screen{
+  display: none;
+  }
+
+  .container{
+  width: 990px;
+  }
+
+  .appear-screen-inline{
+  display: inline;
+  }

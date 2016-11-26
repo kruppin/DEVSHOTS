@@ -1,0 +1,15 @@
+.appear-tablet-inline{
+  display: inline;
+}
+
+.appear-tablet-inline-block{
+  display: inline-block;;
+}
+
+.appear-tablet-block{
+  display: block;;
+}
+
+.disappear-tablet{
+  display: none;
+}

@@ -132,7 +132,10 @@ POSITION CLASES
   right: 0;
 }
 
-
+.left-bottom-conner{
+  left: 0;
+  bottom: 0;
+}
 
 .left-top-conner{
   left: 0;
@@ -362,7 +365,7 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size16{
-  font-size: 9px;
+  font-size: 14px;
 }
 /*********************************
 WIDTH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -381,7 +384,7 @@ WIDTH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .width4{
-  width: 395px; /*Map width*/
+  width: 350px;/*Map width on table*/
 }
 
 .width5{
@@ -537,6 +540,8 @@ PADDING!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .padding-left1{
   margin-left: 60px;
 }
+
+
 
 /*PADDING RIGHT*/
 

@@ -6,7 +6,8 @@
     <title>DevShots</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/basicstylesheet.css" media="screen" title="no title">
-    <link rel="stylesheet" href="CSS/mediaquerystylesheet.css" media="(min-width: 768px)" title="no title">
+    <link rel="stylesheet" href="CSS/tabletstylesheet.css" media="(min-width: 768px)" title="no title">
+    <link rel="stylesheet" href="CSS/screenstylesheet.css" media="(min-width: 990px)" title="no title">
 </head>
 
 <body class="font-hebrew relative-postion">
@@ -28,7 +29,7 @@
                                    margin-top3
                                    border-radius3
                                    menubutton
-
+                                   disappear-screen
                                   "></button>
                 </div>
                 <div class="col-lg-6 col-lg-offset-4
@@ -36,6 +37,7 @@
                         col-sm-8
                         col-xs-8
                         none
+                        appear-screen-inline-block
                         ">
                     <h1 class="text-color1
                          font-size1
@@ -127,29 +129,33 @@
         <!-- הרצאות-->
         <div class="container">
             <div class="row relative-postion">
+              <div class="col-md-3
+                        col-lg-3
+                        col-sm-3
+                        col-xs-12
+                        text-align-right
+                        absolute-postion
+                        left-bottom-conner">
+                  <img src="img/Clock.png" class="width2" alt="Clock icon" />
+                  <p class="inline">
+                      15 דקות להרצאה
+                  </p>
+              </div>
                 <div class="col-md-5 col-md-offset-7
                           col-lg-5 col-lg-offset-7
-                          col-sm-6 col-sm-offset-6
+                          col-sm-7 col-sm-offset-5
                           col-xs-12
+                          vertical-medium
                           ">
                     <h2 class="font-size13">6 הרצאות מרתקות וקצרות </h2>
                 </div>
-                <div class="col-md-3
-                          col-lg-3
-                          col-sm-6
-                          col-xs-12
-                          text-align-right">
-                    <img src="img/Clock.png" class="width2" alt="Clock icon" />
-                    <p class="inline">
-                        15 דקות להרצאה
-                    </p>
-                </div>
+
 
 
             </div>
             <hr class="border-bottom1">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <article class="lecture-block">
                         <img src="img/Lecturer.png" class="width3
                           block
@@ -179,7 +185,7 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <article class="lecture-block">
                         <img src="img/Lecturer.png" class="width3
                           block
@@ -209,7 +215,7 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <article class="lecture-block">
                         <img src="img/Lecturer.png" class="width3
                           block
@@ -240,9 +246,9 @@
                     </article>
                 </div>
             </div>
-            <hr class="border-bottom1 none">
+            <hr class="border-bottom1 none appear-tablet-block">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <article class="lecture-block">
                         <img src="img/Lecturer.png" class="width3
                           block
@@ -272,7 +278,7 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <article class="lecture-block">
                         <img src="img/Lecturer.png" class="width3
                           block
@@ -302,7 +308,7 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <article class="lecture-block">
                         <img src="img/Lecturer.png" class="width3
                           block
@@ -344,7 +350,8 @@
                 <div class="col-md-12 col-lg-12">
                     <h2 class="next
                           font-size13
-                          inline">אז איפה שמים את האוטו?</h2>
+                          appear-screen-inline
+                          appear-tablet-block">אז איפה שמים את האוטו?</h2>
                     <span class="text-color7
                             font-weight1">עוד כמה פרטים חשובים</span>
                 </div>
@@ -352,9 +359,11 @@
             <div class="row">
                 <div class="col-md-5
                         col-lg-5
+                        col-sm-5
                         none
                         appear-tablet-block
-                        text-align-left">
+                        text-align-left
+                        ">
                     <img src="img/Map.png" class="width4
                           border1
                           block" alt="Map to direction" />
@@ -363,7 +372,7 @@
                 </div>
                 <div class="col-md-6 col-md-offset-1
                         col-lg-6 col-lg-offset-1
-                        col-sm-6
+                        col-sm-6 col-sm-offset-1
                         margin-top2">
                     <div class="row">
                         <div class="col-md-12 col-lg-12 col-sm-12">
