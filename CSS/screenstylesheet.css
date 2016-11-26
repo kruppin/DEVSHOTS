@@ -1,46 +1,104 @@
-  .appear-screen-inline-block{
-  display: inline-block;
-  }
+.appear-screen-inline-block{
+display: inline-block;
+}
 
-  .appear-screen-block{
-  display: block;
-  }
+.appear-screen-block{
+display: block;
+}
 
-  .disappear-screen{
-  display: none;
-  }
+.disappear-screen{
+display: none;
+}
 
-  .container{
-  width: 990px;
-  }
+.container{
+width: 990px;
+}
 
-  .appear-screen-inline{
-  display: inline;
-  }
-/*FONT-SIZE WHEN PAGE IS WIDE*/
+.appear-screen-inline{
+display: inline;
+}
+
+/*********************************
+FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
+*********************************/
+
+.font-size1{
+  font-size: 32px; /*English intro title and h2*/
+}
+
+.font-size2{
+  font-size: 30px; /*Hebrew intro title*/
+}
+
+.font-size3{
+  font-size: 80px; /*White presentation title*/
+}
+
+.font-size4{
+  font-size: 35px; /*Hebrew black presentation title*/
+}
+
+.font-size5{
+  font-size: 19px; /*Text in navigation bar*/
+}
+
+.font-size6{
+  font-size: 24px; /*Lecture title*/
+}
+
 .font-size7{
   font-size: 12px;
+}
+
+.font-size8{
+  font-size: 14px; /*Little text aside h2 in direction section*/
+}
+
+.font-size9{
+  font-size: 16px; /*Title down h2 in direction section*/
+}
+
+.font-size10{
+  font-size: 13px; /*Paragraph in direction section*/
+}
+
+.font-size11{
+  font-size: 11px; /*Text down the map*/
 }
 
 .font-size12{
   font-size: 42px;
 }
 
+.font-size13{
+  font-size: 36px; /*Hour*/
+}
+
+.font-size14{
+  font-size: 22px; /*NETCRAFT title in about us section*/
+}
+
+.font-size15{
+  font-size: 42px;
+}
+
+
 .font-size16{
   font-size: 19px;
 }
 
+
 /*MIDDLE BLOCK EXTRA INFO WIDTH*/
 .width8{
-  width: 200px;
+width: 200px;
 }
 
 /*MARGIN FOR EXTRA INFO SECTION*/
 
 .margin-left2{
-  margin-left: 25px;
+margin-left: 25px;
 }
 
 .margin-right3{
-  margin-right: 5px;
+margin-right: 5px;
 }
