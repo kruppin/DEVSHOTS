@@ -313,11 +313,11 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size3{
-  font-size: 80px; /*White presentation title*/
+  font-size: 100px; /*White presentation title*/
 }
 
 .font-size4{
-  font-size: 35px; /*Hebrew black presentation title*/
+  font-size: 70px; /*Hebrew black presentation title*/
 }
 
 .font-size5{
@@ -325,11 +325,11 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size6{
-  font-size: 24px; /*Lecture title*/
+  font-size: 40px; /*Lecture title*/
 }
 
 .font-size7{
-  font-size: 16px; /*Text in white box lecture*/
+  font-size: 25px; /*Text in white box lecture*/
 }
 
 .font-size8{
@@ -349,15 +349,15 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size12{
-  font-size: 15px; /*Text in presentation hour in direction section*/
+  font-size: 40px; /*Text in presentation hour in direction section*/
 }
 
 .font-size13{
-  font-size: 36px; /*Hour*/
+  font-size: 50px; /*Hour*/
 }
 
 .font-size14{
-  font-size: 22px; /*NETCRAFT title in about us section*/
+  font-size: 30px; /*NETCRAFT title in about us section*/
 }
 
 .font-size15{
@@ -365,7 +365,7 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size16{
-  font-size: 14px;
+  font-size: 30px;
 }
 /*********************************
 WIDTH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
