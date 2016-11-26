@@ -17,3 +17,30 @@
   .appear-screen-inline{
   display: inline;
   }
+/*FONT-SIZE WHEN PAGE IS WIDE*/
+.font-size7{
+  font-size: 12px;
+}
+
+.font-size12{
+  font-size: 42px;
+}
+
+.font-size16{
+  font-size: 19px;
+}
+
+/*MIDDLE BLOCK EXTRA INFO WIDTH*/
+.width8{
+  width: 200px;
+}
+
+/*MARGIN FOR EXTRA INFO SECTION*/
+
+.margin-left2{
+  margin-left: 25px;
+}
+
+.margin-right3{
+  margin-right: 5px;
+}

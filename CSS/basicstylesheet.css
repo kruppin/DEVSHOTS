@@ -329,7 +329,7 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size7{
-  font-size: 12px; /*Text in white box lecture*/
+  font-size: 16px; /*Text in white box lecture*/
 }
 
 .font-size8{
@@ -405,7 +405,7 @@ WIDTH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 /*MAX WIDTH*/
 
 .max-width1{
-  max-width: 450px;
+  max-width: 600px;
 }
 
 /*********************************
@@ -513,6 +513,10 @@ PADDING!!!!!!!!!!!!!!!!!!!!!!!!!!!
   padding-top: 59px;
 }
 
+.padding-top6{
+  padding-top: 36px;
+}
+
 /*PADDING BOTTOMS*/
 
 .padding-bottom1{
@@ -540,11 +544,7 @@ PADDING!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .padding-left1{
   margin-left: 60px;
 }
-
-
-
 /*PADDING RIGHT*/
-
 
 
 .padding-reset{
@@ -565,6 +565,9 @@ PADDING!!!!!!!!!!!!!!!!!!!!!!!!!!!
   padding: 10px 31px 8px 10px;
 }
 
+.input-padding{
+  padding: 5px 23px 5px 0;
+}
 
 /*********************************
 MARGIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -597,6 +600,11 @@ MARGIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 .margin-left1{
   margin-left: 22px;
+}
+
+/*MARGIN RIGHT*/
+.margin-right1{
+  margin-right: 25px;
 }
 
 /*MARGIN ELEMENT*/
