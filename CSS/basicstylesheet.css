@@ -105,6 +105,25 @@ ul li{
   margin: 0 auto;
 }
 
+/***************************
+HEADER!!!!!!!!!!!!!!!!!!!!!!
+***************************/
+
+.principal-header{
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%;
+  z-index: 1;
+}
+
+.save-height:before{
+  content: ' ';
+  display: inline-block;
+  height: 100%;
+  visibility: hidden;
+}
+
 /****************************
 TEXT ALIGN
 ****************************/
@@ -117,14 +136,16 @@ TEXT ALIGN
 POSITION CLASES
 *****************************/
 
-
-
 .relative-postion{
   position: relative;
 }
 
 .absolute-postion{
   position: absolute;
+}
+
+.fixed-position{
+  position: fixed;
 }
 
 .right-bottom-conner{
@@ -309,7 +330,7 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size2{
-  font-size: 30px; /*Hebrew intro title*/
+  font-size: 40px; /*Hebrew intro title*/
 }
 
 .font-size3{
@@ -321,15 +342,15 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size5{
-  font-size: 19px; /*Text in navigation bar*/
+  font-size: 30px; /*Text in navigation bar*/
 }
 
 .font-size6{
-  font-size: 40px; /*Lecture title*/
+  font-size: 50px; /*Lecture title*/
 }
 
 .font-size7{
-  font-size: 25px; /*Text in white box lecture*/
+  font-size: 35px; /*Text in white box lecture*/
 }
 
 .font-size8{
@@ -349,7 +370,7 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size12{
-  font-size: 40px; /*Text in presentation hour in direction section*/
+  font-size: 45px; /*Text in presentation hour in direction section*/
 }
 
 .font-size13{
@@ -365,7 +386,7 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .font-size16{
-  font-size: 30px;
+  font-size: 35px;
 }
 /*********************************
 WIDTH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -392,11 +413,15 @@ WIDTH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .width6{
-  width: 40px;
+  width: 80px;
 }
 
 .width7{
   width: 352px; /*Input field width*/
+}
+
+.width8{
+  width: 40px;
 }
 
 .full-width{
@@ -413,7 +438,7 @@ HEIGHT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 *********************************/
 
 .height1{
-  height: 40px;
+  height: 80px;
 }
 
 /*********************************
@@ -517,6 +542,8 @@ PADDING!!!!!!!!!!!!!!!!!!!!!!!!!!!
   padding-top: 36px;
 }
 
+
+
 /*PADDING BOTTOMS*/
 
 .padding-bottom1{
@@ -587,6 +614,14 @@ MARGIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   margin-top: 5px;
 }
 
+.margin-top4{
+  margin-top: 110px;
+}
+
+.margin-top5{
+  margin-top: 50px;
+}
+
 /*MARGIN BOTTOM*/
 
 .margin-bottom1{
@@ -594,8 +629,10 @@ MARGIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .margin-bottom2{
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
+
+
 /*MARGIN LEFT*/
 
 .margin-left1{
