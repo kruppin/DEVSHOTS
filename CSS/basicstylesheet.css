@@ -594,7 +594,7 @@ MARGIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 }
 
 .margin-bottom2{
-  margin-bottom: 12px;
+  margin-bottom: 50px;
 }
 /*MARGIN LEFT*/
 
@@ -605,6 +605,10 @@ MARGIN!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 /*MARGIN RIGHT*/
 .margin-right1{
   margin-right: 25px;
+}
+
+.margin-right2{
+  margin-right: 25%;
 }
 
 /*MARGIN ELEMENT*/
