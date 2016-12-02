@@ -63,6 +63,9 @@ TEXT ALIGN
   text-align: right;
 }
 
+.text-align-center{
+  text-align: center;
+}
 /*****************************
 POSITION CLASES
 *****************************/
