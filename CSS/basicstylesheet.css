@@ -32,6 +32,10 @@ ul li{
   margin: 0 auto;
 }
 
+:root{
+  font-size: 14px;
+}
+
 /***************************
 HEADER!!!!!!!!!!!!!!!!!!!!!!
 ***************************/
@@ -253,67 +257,67 @@ FONT SIZE!!!!!!!!!!!!!!!!!!!!!!!!!
 *********************************/
 
 .font-size1{
-  font-size: 32px; /*English intro title and h2*/
+  font-size: 2.2rem; /*English intro title and h2*/
 }
 
 .font-size2{
-  font-size: 40px; /*Hebrew intro title*/
+  font-size: 2rem; /*Hebrew intro title*/
 }
 
 .font-size3{
-  font-size: 100px; /*White presentation title*/
+  font-size: 7rem; /*White presentation title*/
 }
 
 .font-size4{
-  font-size: 70px; /*Hebrew black presentation title*/
+  font-size: 5rem; /*Hebrew black presentation title*/
 }
 
 .font-size5{
-  font-size: 30px; /*Text in navigation bar*/
+  font-size: 2rem; /*Text in navigation bar*/
 }
 
 .font-size6{
-  font-size: 50px; /*Lecture title*/
+  font-size: 3.5rem; /*Lecture title*/
 }
 
 .font-size7{
-  font-size: 35px; /*Text in white box lecture*/
+  font-size: 2.3rem; /*Text in white box lecture*/
 }
 
 .font-size8{
-  font-size: 14px; /*Little text aside h2 in direction section*/
+  font-size: 1rem; /*Little text aside h2 in direction section*/
 }
 
 .font-size9{
-  font-size: 16px; /*Title down h2 in direction section*/
+  font-size: 1.2rem; /*Title down h2 in direction section*/
 }
 
 .font-size10{
-  font-size: 13px; /*Paragraph in direction section*/
+  font-size: 0.9rem; /*Paragraph in direction section*/
 }
 
 .font-size11{
-  font-size: 11px; /*Text down the map*/
+  font-size: 0.8rem; /*Text down the map*/
 }
 
 .font-size12{
-  font-size: 45px; /*Text in presentation hour in direction section*/
+  font-size: 3.1rem; /*Text in presentation hour in direction section*/
 }
 
 .font-size13{
-  font-size: 50px; /*Hour*/
+  font-size: 3.5rem; /*Hour*/
 }
 
 .font-size14{
-  font-size: 30px; /*NETCRAFT title in about us section*/
+  font-size: 2.1rem; /*NETCRAFT title in about us section*/
 }
 
 .font-size15{
-  font-size: 42px;
+  font-size: 3rem;
 }
 
 .font-size16{
-  font-size: 35px;
+  font-size: 2.4rem;
 }
 /*********************************
 WIDTH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
